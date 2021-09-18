@@ -22,8 +22,7 @@
 	width: 2%;
 	top: 26%;
 	left: 49.4%;
-	opacity: 2;
-	<!--display:  none;-->
+	opacity: 2; 
 	transform-origin: bottom;
 
 }
@@ -32,8 +31,7 @@
 	width: 2%;
 	top: 24%;
 	left: 49.4%;
-	opacity: 2;
-	<!--display: none;-->
+	opacity: 2; 
 	transform-origin: bottom;
 }
 #seconds{
@@ -42,7 +40,7 @@
 	top: 23%;
 	left: 49.4%;
 	opacity: 2;
-	<!--display: none;-->
+	/*display: none;*/
 	transform-origin: bottom;
 
 }

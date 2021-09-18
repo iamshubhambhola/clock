@@ -1,4 +1,4 @@
-<!--setInterval(() =>  {
+setInterval(() =>  {
       d = new Date();
       htime = d.getHours();
       mtime = d.getMinutes();
@@ -9,9 +9,9 @@
       hour.style.transform = `rotate(${hrotation}deg)`;
       minute.style.transform = `rotate(${mrotation}deg)`;
       seconds.style.transform = `rotate(${srotation}deg)`;
-	}, 1000);-->
+	}, 1000);
 
-  let clickbtn = document.querySelector('button');
+  let clickbtn = document.querySelector('#butt');
   clickbtn.addEventListener('click', showMsg);
 
   function showMsg(){
